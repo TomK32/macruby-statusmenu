@@ -1,5 +1,10 @@
 macruby-statusmenu example
 
-
 This example application written in MacRuby shows you how to write a 
 simple application that sits in your system's status menu.
+It also displays a custom view that you can style with images and stuff
+in this status menu.
+The app is set to run as agent meaning it won't show in the Dock Menu when running.
+
+Written by Thomas R. Koll, <info@ananasblau.com>
+Dual-Licensed under GPL version 2 and WTFPL.
