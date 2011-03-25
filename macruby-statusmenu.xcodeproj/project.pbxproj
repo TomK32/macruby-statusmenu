@@ -14,19 +14,23 @@
 		0E21A6F7133D06FA0032899B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E21A6F5133D06FA0032899B /* MainMenu.xib */; };
 		0E21A6FA133D06FA0032899B /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 0E21A6F9133D06FA0032899B /* rb_main.rb */; };
 		0E21A6FC133D06FA0032899B /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 0E21A6FB133D06FA0032899B /* AppDelegate.rb */; };
+		0E21A706133D07140032899B /* MySatusMenu.rb in Resources */ = {isa = PBXBuildFile; fileRef = 0E21A705133D07140032899B /* MySatusMenu.rb */; };
+		0E4C6FE6133D092900DDC7C9 /* menubar-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E4C6FE5133D092900DDC7C9 /* menubar-icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0E21A6E2133D06FA0032899B /* macruby-statusmenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "macruby-statusmenu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E21A6E6133D06FA0032899B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		0E21A6E8133D06FA0032899B /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = System/Library/Frameworks/MacRuby.framework; sourceTree = SDKROOT; };
-		0E21A6ED133D06FA0032899B /* macruby-statusmenu-Info.plist */ = {isa = PBXFileReference; path = "macruby-statusmenu-Info.plist"; sourceTree = "<group>"; };
+		0E21A6ED133D06FA0032899B /* macruby-statusmenu-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "macruby-statusmenu-Info.plist"; sourceTree = "<group>"; };
 		0E21A6EF133D06FA0032899B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		0E21A6F1133D06FA0032899B /* macruby-statusmenu-Prefix.pch */ = {isa = PBXFileReference; path = "macruby-statusmenu-Prefix.pch"; sourceTree = "<group>"; };
+		0E21A6F1133D06FA0032899B /* macruby-statusmenu-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "macruby-statusmenu-Prefix.pch"; sourceTree = "<group>"; };
 		0E21A6F2133D06FA0032899B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0E21A6F6133D06FA0032899B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		0E21A6F9133D06FA0032899B /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
 		0E21A6FB133D06FA0032899B /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		0E21A705133D07140032899B /* MySatusMenu.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = MySatusMenu.rb; sourceTree = "<group>"; };
+		0E4C6FE5133D092900DDC7C9 /* menubar-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menubar-icon.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				0E21A6FB133D06FA0032899B /* AppDelegate.rb */,
+				0E21A705133D07140032899B /* MySatusMenu.rb */,
 				0E21A6F4133D06FA0032899B /* Resources */,
 				0E21A6F8133D06FA0032899B /* Other Sources */,
 				0E21A6EC133D06FA0032899B /* Supporting Files */,
@@ -93,6 +98,7 @@
 		0E21A6F4133D06FA0032899B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0E4C6FE5133D092900DDC7C9 /* menubar-icon.png */,
 				0E21A6F5133D06FA0032899B /* MainMenu.xib */,
 			);
 			name = Resources;
@@ -177,6 +183,8 @@
 				0E21A6F7133D06FA0032899B /* MainMenu.xib in Resources */,
 				0E21A6FA133D06FA0032899B /* rb_main.rb in Resources */,
 				0E21A6FC133D06FA0032899B /* AppDelegate.rb in Resources */,
+				0E21A706133D07140032899B /* MySatusMenu.rb in Resources */,
+				0E4C6FE6133D092900DDC7C9 /* menubar-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +316,7 @@
 				0E21A701133D06FA0032899B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E21A702133D06FA0032899B /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
 			isa = XCConfigurationList;
@@ -316,6 +325,7 @@
 				0E21A704133D06FA0032899B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
