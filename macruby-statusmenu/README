@@ -1,0 +1,5 @@
+macruby-statusmenu example
+
+
+This example application written in MacRuby shows you how to write a 
+simple application that sits in your system's status menu.
