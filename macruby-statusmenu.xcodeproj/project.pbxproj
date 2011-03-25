@@ -16,7 +16,6 @@
 		0E21A6FC133D06FA0032899B /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 0E21A6FB133D06FA0032899B /* AppDelegate.rb */; };
 		0E21A706133D07140032899B /* MySatusMenu.rb in Resources */ = {isa = PBXBuildFile; fileRef = 0E21A705133D07140032899B /* MySatusMenu.rb */; };
 		0E4C6FE6133D092900DDC7C9 /* menubar-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E4C6FE5133D092900DDC7C9 /* menubar-icon.png */; };
-		0E4C6FEE133D0C8000DDC7C9 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 0E4C6FED133D0C8000DDC7C9 /* README */; };
 		0E4C6FF0133D0CDE00DDC7C9 /* MyCustomView.rb in Resources */ = {isa = PBXBuildFile; fileRef = 0E4C6FEF133D0CDE00DDC7C9 /* MyCustomView.rb */; };
 /* End PBXBuildFile section */
 
@@ -33,7 +32,6 @@
 		0E21A6FB133D06FA0032899B /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
 		0E21A705133D07140032899B /* MySatusMenu.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = MySatusMenu.rb; sourceTree = "<group>"; };
 		0E4C6FE5133D092900DDC7C9 /* menubar-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menubar-icon.png"; sourceTree = "<group>"; };
-		0E4C6FED133D0C8000DDC7C9 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		0E4C6FEF133D0CDE00DDC7C9 /* MyCustomView.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = MyCustomView.rb; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,7 +103,6 @@
 			children = (
 				0E4C6FE5133D092900DDC7C9 /* menubar-icon.png */,
 				0E21A6F5133D06FA0032899B /* MainMenu.xib */,
-				0E4C6FED133D0C8000DDC7C9 /* README */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -191,7 +188,6 @@
 				0E21A6FC133D06FA0032899B /* AppDelegate.rb in Resources */,
 				0E21A706133D07140032899B /* MySatusMenu.rb in Resources */,
 				0E4C6FE6133D092900DDC7C9 /* menubar-icon.png in Resources */,
-				0E4C6FEE133D0C8000DDC7C9 /* README in Resources */,
 				0E4C6FF0133D0CDE00DDC7C9 /* MyCustomView.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
